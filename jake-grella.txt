@@ -71,22 +71,67 @@ link to finished codepen: https://codepen.io/jakeg13/pen/KKzvjLa
     A parent child selector is used to select all elements that are a child of the specific parent element. This would be useful if you were trying to select list items that are a direct child of an unordered list and not any other list items nested in a deeper unordered list.
 
 23. How do you select all links within a div with the class of sidebar?
-    
-24. What is a pseudo selector?
-25. What do we use the change the spacing between lines?
-26. What do we use to change the spacing between letters?
-27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-28. How do I add a 1px border around my div that is dotted and black?
-29. How do I select everything on the page? 
-30. How do I write a comment in CSS?
-31. How do I find out what file I am in, when I am using the command line? 
-32. Using the command line - how do I see a list of files/folders in my current folder?
-33. How do I remove a file via the command line? Why do I have to be careful with this? 
-34. Why should I use version control? 
-35. How often should I commit to github?
-36. What is the command we would use to push our repo up to github? 
-37. Walk me through Lambda's git flow. 
+    .sidebar a {}
 
+24. What is a pseudo selector?
+    A pseudo selector is a class used to define a special state and then style an element. Examples include :hover and :active.
+
+25. What do we use the change the spacing between lines?
+    To change vertical spacing between lines the line height property is used.
+
+26. What do we use to change the spacing between letters?
+    letter-spacing
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase, text-transform: lowercase, and text-transform: capitalize, respectively
+
+28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px dotted black;
+
+29. How do I select everything on the page?
+    * {}
+
+30. How do I write a comment in CSS?
+    /* comment */
+
+31. How do I find out what file I am in, when I am using the command line?
+    pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm filename
+    It is important to be careful with this because the action cannot be undone.
+
+34. Why should I use version control? 
+    Version control is important so that you can keep track of changes, and collaboration with others stays streamlined and organized.
+
+35. How often should I commit to github?
+    Commits to GitHub should be frequent.
+
+36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name
+
+37. Walk me through Lambda's git flow. 
+    1.  Fork repo, confirm my name is in front of repo
+    2.  Add TL as collaborator on forked repo
+    3.  Clone repo
+    4.  In CLI, use cd to enter desired directory
+    5.  git clone <link-to-repo>
+    6.  cd <repo-name>
+    7.  git checkout -b 'firstname-lastname'
+    8.  work on repo locally
+    9.  frequently commit to branch using:
+        a.  git add .
+        b.  git commit -m "commit message"
+    10. Push changes to GitHub repo using git push -u origin branch-name
+    
+    11. To submit pull request, select 'firstname-lastname' branch and click new pull request button
+    12. Change base repository to forked repo
+    13. Add TL to reviewers and submit pull request
+    14. Make sure not to merge own pull request
+    
 Stretch Questions
 1. What is the difference between an inline element and a block element?
 2. What happens when an element is positioned absolutely? 
