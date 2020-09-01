@@ -1,4 +1,4 @@
-link to finished codepen:
+link to finished codepen: https://codepen.io/jakeg13/pen/KKzvjLa
 
 1. What is Semantic HTML? 
     2. What is HTML used for? 
