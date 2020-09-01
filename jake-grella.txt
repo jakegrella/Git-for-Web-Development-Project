@@ -52,11 +52,7 @@ link to finished codepen: https://codepen.io/jakeg13/pen/KKzvjLa
     CSS is used for styling.
 
 18. How to we select an element? Example - every h2 on the page
-
-
-
-
-
+    element {} (ex: h2 {})
 
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
     A class can be used by multiple elements while an id can only be used by one. A class may be used to style all h2 elements' font size while an id may be used to scroll to a specific point on a webpage.
@@ -134,7 +130,18 @@ link to finished codepen: https://codepen.io/jakeg13/pen/KKzvjLa
     
 Stretch Questions
 1. What is the difference between an inline element and a block element?
+    An inline element does not take up an entire width of line, while block elements do.
+
 2. What happens when an element is positioned absolutely? 
+    When an element is positioned absolutely, it is taken out of the document's flow and is placed at a positon decided by the developer using a variety of attributes (top, bottom, left, right).
+
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    You can give something a larger width than it needs to display its content by using margin.
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block: p, header, div
+    inline: span, a, button
+    inline-block: img
+
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    The box model is the design system used in CSS where every HTML element exists in a box. The box consists of layers including margin, border, padding, and the content. This design system allows developers to position a piece of content in a way that respects the dimensions its given.
