@@ -125,7 +125,7 @@ link to finished codepen: https://codepen.io/jakeg13/pen/KKzvjLa
     9.  frequently commit to branch using:
         a.  git add .
         b.  git commit -m "commit message"
-    10. Push changes to GitHub repo using git push -u origin branch-name
+    10. Push changes to GitHub repo using git push -u origin branch-name, subsequent pushes can be done using just git push
     
     11. To submit pull request, select 'firstname-lastname' branch and click new pull request button
     12. Change base repository to forked repo
